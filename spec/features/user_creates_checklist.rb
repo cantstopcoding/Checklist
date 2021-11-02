@@ -8,7 +8,7 @@ feature "User create list" do
         fill_in "Title", with: "Go shopping"
         click_on "Submit"
 
-        expect(page).to have_css '.checklist li', text: "Go shopping"
+        expect(page).to have_css '.checklists li', text: "Go shopping"
     end
 end
 
